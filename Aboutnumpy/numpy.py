@@ -116,6 +116,12 @@ def sumVal():
     sumVal = a.sum()
     print("for elements in the array\n\t {}\n the sum of values is {}".format(a, sumVal))
 
-
+def sumAxis():
+    """
+    colums:axis 0, rows axis:1
+    computes sum on each axis
+    """
+    valu = np.array([(1,2,3),(3,4,5)])
+    print(valu.sum(axis=0))
 
 
