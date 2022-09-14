@@ -41,6 +41,32 @@ def numpTimeTest():
     start = time.time()
     result = A1+A2
     print("time taken for numpy : {}".format((time.time()-start)*1000))
+def dimType():
+    """
+    check on the number of dimensions
+    """
+    dim = np.array([(1,2,3),(3,4,5),(5,6,7)])
+    print("dim is an {} dimensional array".format(dim.ndim))
+def elementSiz():
+    """
+    check size on numpy
+    """
+    s = np.array([(1,2,3),(3,4,5),(5,6,7)])
+    print("each element occupies {} bytes".format(s.itemsize))
 
+def elem():
+    """
+    check number of elements
+    """
+    num = np.array([(1,2,3),(3,4,5),(5,6,7)])
+    print("the number of elements in the array num is {}".format(num.size))
+
+def shep():
+    """
+    numbers of columns to rows
+    """
+    shep = np.array([(1,2,3,5),(3,4,5,77),(5,6,7,43)])
+    values = np.array(shep.shape)
+    print("the number of columns is {} rows are {}".format(values[0], values[1]))
 
 
