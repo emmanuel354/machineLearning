@@ -105,10 +105,17 @@ def minVal():
     find minimum value in an array
     """
     a = np.arange(100)
-    maxVal = a.min()
-    print("for elements in the array\n\t {}\n the largest value is {}".format(a, maxVal))
+    minVal = a.min()
+    print("for elements in the array\n\t {}\n the largest value is {}".format(a, minVal))
+
+def sumVal():
+    """
+    find minimum value in an array
+    """
+    a = np.arange(100)
+    sumVal = a.sum()
+    print("for elements in the array\n\t {}\n the sum of values is {}".format(a, sumVal))
 
 
-
-
+sumVal()
 
