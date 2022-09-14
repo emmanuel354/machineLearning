@@ -117,5 +117,5 @@ def sumVal():
     print("for elements in the array\n\t {}\n the sum of values is {}".format(a, sumVal))
 
 
-sumVal()
+
 
