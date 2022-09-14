@@ -92,8 +92,23 @@ def randValues():
     c = np.linspace(1,5,12)
     print("between 1 and 2 : {}".format(b))
     print("between 1 and 5 : {}".format(c))
+def maxVal():
+    """
+    find maximum value in an array
+    """
+    a = np.arange(100)
+    maxVal = a.max()
+    print("for elements in the array\n\t {}\n the largest value is {}".format(a, maxVal))
+
+def minVal():
+    """
+    find minimum value in an array
+    """
+    a = np.arange(100)
+    maxVal = a.min()
+    print("for elements in the array\n\t {}\n the largest value is {}".format(a, maxVal))
 
 
-randValues()    
+
 
 
