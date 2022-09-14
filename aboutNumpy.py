@@ -83,6 +83,17 @@ def reshep():
     shepR = shepR.reshape(4, 3)
     values = np.array(shepR.shape)
     print("now we have {} columns and {} rows".format(values[0], values[1]))
-reshep()
+def randValues():
+    """
+    give random values in array form
+    linspace(1st value, 2nd value, number of values)
+    """
+    b = np.linspace(1,2,6)
+    c = np.linspace(1,5,12)
+    print("between 1 and 2 : {}".format(b))
+    print("between 1 and 5 : {}".format(c))
+
+
+randValues()    
 
 
