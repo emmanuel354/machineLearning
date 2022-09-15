@@ -8,31 +8,31 @@ here is a template of heading format
 ###### Heading6(######heading)
 
 *Italics
-its done by using astrerisks or underscore b4 and after the text we want in italics
-*this text* is in italics
-_this text_ is also in italics
+-its done by using astrerisks or underscore b4 and after the text we want in italics
+-*this text* is in italics
+-_this text_ is also in italics
 
 *Em
-we use double astrericks or underscore
-am **bond** ...... __james__ BOND
+- we use double astrericks or underscore
+- am **bond** ...... __james__ BOND
 
 *strikethrough
-we use double tilde sign b4 and after text
-~~this~~ is cancled 
+- we use double tilde sign b4 and after text
+- ~~this~~ is cancled 
 
 *horizontal rule
-we use triple hyphen or underscores
-____its ruled___ together with ---this---
+- we use triple hyphen or underscores
+- ____its ruled___ together with ---this---
 *qoutes
 > this is a qoute
 *links
-[google](https://www.google.com
+- [google](https://www.google.com
 "link title")
 *unordered list
-we use only one single astrerick 
+- we use only one single astrerick 
 *ordered list
 1.we use one dot
 1.we use one dot
 1.we use one dot
-1.we use one dot
+1`.we use one dot
 
