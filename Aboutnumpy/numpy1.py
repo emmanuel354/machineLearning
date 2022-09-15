@@ -140,15 +140,36 @@ def stndDev():
     valu = np.array([(4,16,25),(9,100,121)])
     print("the standard deviation of value are : {}".format(np.std(valu)))
 
-stndDev()
+def sumArrays():
+    """
+        sums elements of 2 arrays
+    """
+    valu1 = np.array([(1,2,3),(3,4,5)])
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    print("the sum of array val 1&2 is: {}".format(valu1+valu2))
+    
+def subArrays():
+    """
+        subtracts elements of 2 arrays
+    """
+    valu1 = np.array([(1,2,3),(3,4,5)])
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    print("the subtraction of array val 1&2 is: {}".format(valu1-valu2))
 
-
-
-
-
-
-
-
+def multArrays():
+    """
+        multiply elements of 2 arrays
+    """
+    valu1 = np.array([(1,2,3),(3,4,5)])
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    print("the multiplication of array val 1&2 is: {}".format(valu1*valu2))
+def divArrays():
+    """
+        divide elements of 2 arrays
+    """
+    valu1 = np.array([(1,2,3),(3,4,5)])
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    print("the divition of array val 1&2 is: {}".format(valu1/valu2))
 
 
 
