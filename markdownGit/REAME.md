@@ -12,7 +12,7 @@ here is a template of heading format
 - *this text* is in italics
 - _this text_ is also in italics
 
-*Em
+##Em
 - we use double astrericks or underscore
 - am **bond** ...... __james__ BOND
 
@@ -22,14 +22,18 @@ here is a template of heading format
 
 *horizontal rule
 - we use triple hyphen or underscores
-- ____its ruled___ together with ---this---
+- ___its ruled___ together with ---this---
+
 *qoutes
 > this is a qoute
+
 *links
 - [google](https://www.google.com
 "link title")
+
 *unordered list
 - we use only one single astrerick 
+
 *ordered list
 1.we use one dot
 1.we use one dot
