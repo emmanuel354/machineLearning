@@ -7,10 +7,10 @@ here is a template of heading format
 ##### Heading5(#####heading)
 ###### Heading6(######heading)
 
-#Italics
+##Italics
 its done by using astrerisks or underscore b4 and after the text we want in italics
 *this text* is in italics
 _this text_ is also in italics
-#Em
+##Em
 we use double astrericks or underscore
 am **bond** ...... __james__ BOND
