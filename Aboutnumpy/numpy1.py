@@ -122,6 +122,36 @@ def sumAxis():
     computes sum on each axis
     """
     valu = np.array([(1,2,3),(3,4,5)])
-    print(valu.sum(axis=0))
+    print("sum on columns is : {}".format(valu.sum(axis=0)))
+    print("sum on rows is : {}".format(valu.sum(axis=1)))
 
-sumAxis()
+def squareR():
+    """
+        find squar_root of elements in an array
+    """
+    valu = np.array([(4,16,25),(9,100,121)])
+    print("the square root of values are : {}".format(np.sqrt(valu)))
+
+def stndDev():
+    """
+        standard deviation
+        give the difference bwn mean and elements
+    """
+    valu = np.array([(4,16,25),(9,100,121)])
+    print("the standard deviation of value are : {}".format(np.std(valu)))
+
+stndDev()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
