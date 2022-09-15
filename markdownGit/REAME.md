@@ -28,7 +28,7 @@ here is a template of heading format
 > this is a qoute
 
 *links
--\[the name of link\]\(the link\)
+- \[the name of link\]\(the link\)
 - [google](https://www.google.com
 "link title")
 
@@ -36,8 +36,8 @@ here is a template of heading format
 - we use only one single astrerick 
 
 *ordered list
-1.we use one dot
-1.we use one dot
-1.we use one dot
-1`.we use one dot
+1. we use one dot
+1. we use one dot
+1. we use one dot
+1. we use one dot
 
