@@ -8,9 +8,9 @@ here is a template of heading format
 ###### Heading6(######heading)
 
 *Italics
--its done by using astrerisks or underscore b4 and after the text we want in italics
--*this text* is in italics
--_this text_ is also in italics
+- its done by using astrerisks or underscore b4 and after the text we want in italics
+- *this text* is in italics
+- _this text_ is also in italics
 
 *Em
 - we use double astrericks or underscore
