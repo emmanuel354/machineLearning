@@ -43,3 +43,21 @@ ___
 1. we use one dot
 1. we use one dot
 
+*super and subscript
+- using the tags \<sup\> for superscript and \<sub\> for subscript
+- <sup>super<sup> script <sub>sub<sub> script
+
+*outing code
+- this is my 'git hub' repo
+- some basic commands are
+'''
+
+git status
+git add 
+git commit
+
+'''
+
+*image
+- [this is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
