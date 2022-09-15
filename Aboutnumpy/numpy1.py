@@ -189,5 +189,4 @@ def singleCol():
     valu2 = np.array([(4,16,25),(9,100,121)])
     print("{} \n into a single cilumn is\n: {}".format(valu2, valu2.ravel()))
     
-singleCol()
-
+#this is just a fraction of what numpy lib does
