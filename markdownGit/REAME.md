@@ -22,7 +22,9 @@ here is a template of heading format
 
 *horizontal rule
 - we use triple hyphen or underscores
-- ___its ruled___ together with ---this---
+___
+---
+
 
 *qoutes
 > this is a qoute
