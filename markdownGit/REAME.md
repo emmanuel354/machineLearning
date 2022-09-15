@@ -28,6 +28,7 @@ here is a template of heading format
 > this is a qoute
 
 *links
+-\[the name of link\]\(the link\)
 - [google](https://www.google.com
 "link title")
 
