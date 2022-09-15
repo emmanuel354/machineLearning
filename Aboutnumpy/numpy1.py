@@ -170,9 +170,24 @@ def divArrays():
     valu1 = np.array([(1,2,3),(3,4,5)])
     valu2 = np.array([(4,16,25),(9,100,121)])
     print("the divition of array val 1&2 is: {}".format(valu1/valu2))
+def concatinate():
+    """
+        vertical and horizontal concatination
+    """
+    valu1 = np.array([(1,2,3),(3,4,5)])
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    #vertical stacking
+    print("the vertical stack of\n {}\n and \n{}\n\n is:\n\n{}".format(valu1, valu2, np.vstack((valu1, valu2))))
+    print("\n\n\n\n")
+    #horizontal stacking
+    print("the horizontal stack of\n {}\n and \n{}\n\n is:\n\n{}".format(valu1, valu2, np.hstack((valu1, valu2))))
 
-
-
-
-
+def singleCol():
+    """
+        move elements to a single column
+    """
+    valu2 = np.array([(4,16,25),(9,100,121)])
+    print("{} \n into a single cilumn is\n: {}".format(valu2, valu2.ravel()))
+    
+singleCol()
 
