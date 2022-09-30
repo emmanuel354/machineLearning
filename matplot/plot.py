@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+#resize graph
+plt.figure(figsize=(5,3), dpi=300)
+
 #lets plot
 x = [0, 2, 4]
 y = [0, 4, 8]
 plt.plot(x,y, label="y=2x", color='red', linewidth=2, marker='.', markersize=10, markeredgecolor='black')
-#resize graph
-#plt.figure(figsize=(5,3), dpi=300)
-
 
 #adding legend which is possible by adding label="your legend" command prior
 plt.legend()
@@ -29,4 +29,3 @@ plt.legend()
 
 #to show graph
 plt.show()
-
