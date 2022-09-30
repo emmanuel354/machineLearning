@@ -1,4 +1,4 @@
-#mathplotlib
+# Mathplotlib
 
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python
 we can install it on windows using *pip install* command
