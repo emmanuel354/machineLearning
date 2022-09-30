@@ -27,5 +27,8 @@ x2 = np.arange(0,4.5,0.5)
 plt.plot(x2, x2**2, 'b', label='x^2')
 plt.legend()
 
+plt.savefig("./graphs/mygraph1.png")
+
+
 #to show graph
-plt.show()
+#plt.show()
