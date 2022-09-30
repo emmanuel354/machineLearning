@@ -7,7 +7,9 @@ import pandas as pd
 #lets plot
 x = [0, 2, 4]
 y = [0, 4, 8]
-plt.plot(x,y)
+plt.plot(x,y, label="y=2x")
+#adding legend which is possible by adding label="your legend" command prior
+plt.legend()
 
 #we can add a graph title this way
 plt.title("My First Title", fontdict={'fontname': 'Comic Sans MS', 'fontsize': 20})
