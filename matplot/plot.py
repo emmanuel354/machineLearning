@@ -8,6 +8,10 @@ import pandas as pd
 x = [0, 2, 4]
 y = [0, 4, 8]
 plt.plot(x,y, label="y=2x", color='red', linewidth=2, marker='.', markersize=10, markeredgecolor='black')
+#resize graph
+#plt.figure(figsize=(5,3), dpi=300)
+
+
 #adding legend which is possible by adding label="your legend" command prior
 plt.legend()
 
@@ -17,6 +21,11 @@ plt.title("My First Title", fontdict={'fontname': 'Comic Sans MS', 'fontsize': 2
 #we can lable axis this way
 plt.xlabel("X Axis")
 plt.ylabel("Y Axis")
+
+#we can use numpy for our arrays
+x2 = np.arange(0,4.5,0.5)
+plt.plot(x2, x2**2, 'b', label='x^2')
+plt.legend()
 
 #to show graph
 plt.show()
