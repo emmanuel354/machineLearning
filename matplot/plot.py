@@ -1,4 +1,4 @@
-#install matplotlib, numpy, pandas libraries for this to work
+#install matpalotlib, numpy, pandas libraries for this to work
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -31,4 +31,4 @@ plt.savefig("./graphs/mygraph1.png")
 
 
 #to show graph
-#plt.show()
+plt.show()
