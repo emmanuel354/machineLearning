@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 #resize graph
-plt.figure(figsize=(5,3), dpi=300)
+plt.figure(figsize=(5,3), dpi=100)
 
 #lets plot
 x = [0, 2, 4]
