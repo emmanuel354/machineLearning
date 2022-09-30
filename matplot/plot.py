@@ -7,7 +7,7 @@ import pandas as pd
 #lets plot
 x = [0, 2, 4]
 y = [0, 4, 8]
-plt.plot(x,y, label="y=2x")
+plt.plot(x,y, label="y=2x", color='red', linewidth=2, marker='.', markersize=10, markeredgecolor='black')
 #adding legend which is possible by adding label="your legend" command prior
 plt.legend()
 
